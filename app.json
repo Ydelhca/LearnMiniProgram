@@ -1,6 +1,32 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/category/category"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff6888",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的小程序",
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#ff6888",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/images/tabbar/home.png",
+        "selectedIconPath": "assets/images/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assets/images/tabbar/category.png",
+        "selectedIconPath": "assets/images/tabbar/category_active.png"
+      }
+    ]
+  }
 }
